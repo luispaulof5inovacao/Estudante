@@ -39,8 +39,11 @@ class Module
                 },
                 'EstudanteTableGateway' => function ($sm) {
                     $dbAdapter = $sm->get('Zend\Db\Adapter\Adapter');
+//                    print_r($dbAdapter);
+//                    die("");
                     $resultSetPrototype = new ResultSet();
                     $resultSetPrototype->setArrayObjectPrototype(new Estudante());
+                  
                     return new TableGateway('estudante', $dbAdapter, null, $resultSetPrototype);
                 },
             ),

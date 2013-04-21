@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ZendSkeletonApplication
 =======================
 
@@ -50,3 +51,9 @@ Virtual Host
 ------------
 Afterwards, set up a virtual host to point to the public/ directory of the
 project and you should be ready to go!
+=======
+Estudante
+=========
+
+ProjetoTcc
+>>>>>>> 541ea6bc85bf111e78feadabc1b8ceb5624bc091
