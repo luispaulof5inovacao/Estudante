@@ -42,8 +42,7 @@ class Module
 //                    print_r($dbAdapter);
 //                    die("");
                     $resultSetPrototype = new ResultSet();
-                    $resultSetPrototype->setArrayObjectPrototype(new Estudante());
-                  
+                    $resultSetPrototype->setArrayObjectPrototype(new Estudante());                  
                     return new TableGateway('estudante', $dbAdapter, null, $resultSetPrototype);
                 },
             ),

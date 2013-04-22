@@ -22,7 +22,7 @@ class EstudanteForm extends Form
                 'type'  => 'text',
             ),
             'options' => array(
-                'label' => 'Artist',
+                'label' => 'Nome',
             ),
         ));
         $this->add(array(
@@ -31,7 +31,7 @@ class EstudanteForm extends Form
                 'type'  => 'text',
             ),
             'options' => array(
-                'label' => 'Title',
+                'label' => 'Cargo',
             ),
         ));
         $this->add(array(
